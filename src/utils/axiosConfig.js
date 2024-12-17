@@ -1,4 +1,4 @@
-export const base_url = "http://localhost:4000/api/";
+export const base_url = "https://ecommerce-backend-three-gamma.vercel.app/api/";
 
 const getTokenFromLocalStorage = localStorage.getItem("customer")
   ? JSON.parse(localStorage.getItem("customer"))
